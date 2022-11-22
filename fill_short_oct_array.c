@@ -1,7 +1,11 @@
 #include "main.h"
 
 /**
+<<<<<<< HEAD
  * fill_short_oct_array - calculates a long octal number
+=======
+ * fill_short_oct_array - calculates a short octal number
+>>>>>>> 477eb11864ae7c76a54c7ebcc4922255940a7ce2
  *
  * @bnr: array where is stored the binary.
  * @oct: array where is stored the octal.
@@ -12,7 +16,11 @@ char *fill_short_oct_array(char *bnr, char *oct)
 {
 	int op, i, j, ioct, limit;
 
+<<<<<<< HEAD
 	oct[22] = '\0';
+=======
+	oct[6] = '\0';
+>>>>>>> 477eb11864ae7c76a54c7ebcc4922255940a7ce2
 	for (i = 15, ioct = 5; i >= 0; i--, ioct--)
 	{
 		if (i > 0)
