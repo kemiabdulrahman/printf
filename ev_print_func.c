@@ -48,8 +48,4 @@ int ev_print_func(const char *s, int index)
 		}
 	}
 	return (j);
-<<<<<<< HEAD
 }
-=======
-
->>>>>>> 477eb11864ae7c76a54c7ebcc4922255940a7ce2
