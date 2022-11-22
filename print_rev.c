@@ -1,3 +1,4 @@
+#include "main.h"
 int print_rev(va_list arguments, char *buf, unsigned int ibuf)
 {
 	char *str;
@@ -20,4 +21,4 @@ int print_rev(va_list arguments, char *buf, unsigned int ibuf)
 		ibuf = handl_buf(buf, str[j], ibuf);
 	}
 	return (i);
-
+}
